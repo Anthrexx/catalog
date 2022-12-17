@@ -1,0 +1,6 @@
+ return MaterialApp(
+      home: homepage(),
+    
+      themeMode: ThemeMode.light,
+      theme: ThemeData(primarySwatch: Colors.deepPurple),
+    );
