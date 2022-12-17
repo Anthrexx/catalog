@@ -10,19 +10,9 @@ class login_page extends StatelessWidget {
         title: Text("login page"),
       ),
       body: Material(
-        child: Center(
-          child: Container(
-            child: Text(
-              "login page",
-              style: TextStyle(
-                fontSize: 40,
-                color: Colors.deepPurpleAccent,
-                fontWeight: FontWeight.bold,
-              ),
-            ),
-          ),
-        ),
-      ),
+          child: Column(
+        children: [Image.asset("assets/images/undraw_Services_re_hu5n.png")],
+      )),
     );
   }
 }
