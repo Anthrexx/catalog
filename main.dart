@@ -14,8 +14,7 @@ class Myapp extends StatelessWidget {
     // main code yha se suru hota hai phle material app  ka use karke usme home
     // bnate hai then usme child child karke chizo ko use karte hain.
     return MaterialApp(
-      // home: homepage(),
-      // themeMode: ThemeMode.dark,
+     debugShowCheckedModeBanner: false,
       themeMode: ThemeMode.light,
       theme: ThemeData(primarySwatch: Colors.deepPurple),
       routes: {
